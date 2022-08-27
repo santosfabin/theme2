@@ -9,7 +9,7 @@ interface Props {
   toggleTheme(): void;
 }
 
-export function Header<Props>({ toggleTheme }) {
+export function Header<Props>({ toggleTheme }: any) {
   const { colors, title } = useContext(ThemeContext);
   return (
     <>
